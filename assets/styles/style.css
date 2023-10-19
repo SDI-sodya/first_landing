@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* border: 1px solid #000; */
 }
 
 body {
@@ -13,21 +12,22 @@ body {
 header {
     display: block;
     width: 100%;
-    height: calc(100vh - 42vh);
-    border: 0; /* Border */
+    height: 100vh;
     text-align: center;
-    margin: 42vh 0 0 0;
+    padding: 42vh;
+    background-image: url(../images/beach.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 .welcomeTitle {
     text-transform: capitalize;
-    border: 0; /* Border */
     font-size: 50px;
 }
 
 .welcomeText {
     margin: 5px 0 25px;
-    border: 0; /* Border */
     font-size: 20px;
     padding: 0 10%;
 }
